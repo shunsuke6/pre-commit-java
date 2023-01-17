@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 openjdk:11
+FROM --platform=linux/amd64 openjdk:17-alpine
 
 RUN apk add --update --no-cache wget unzip curl bash jq
 RUN mkdir -p /opt
